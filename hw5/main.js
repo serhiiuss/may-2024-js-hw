@@ -3,14 +3,18 @@ let calculator = (a, b,) => a * b;
 console.log(calculator(10,20));
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
-let calc = (a,b,c) => 3.14 * r * r;
+let calc = (r) => Math.PI * r * r;
+console.log(calc(10));
 
 // створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-let calc1 = (a,b,c,d,e) => 2 * pi * r1 * h + 2 * pi * r1 * r1;
+const SurfaceArea = (r, h) => {
+    const baseArea = Math.PI * r * r;
+    const sideArea = 2 * Math.PI * r * h;
+    return 2 * baseArea + sideArea;
+}
 
 // створити функцію яка приймає масив та виводить кожен його елемент
-let func = (a,b,c) => '' + '' + '';
-console.log('asd','qwe','zxc')
+
 
 //  створити функцію яка створює параграф з текстом. Текст задати через аргумент
 let func2 =(text) => `<p>${text}</p>`;

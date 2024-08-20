@@ -4,17 +4,9 @@ let calculator = function (a,b){
     return result;
 }
 // 2 створити функцію яка обчислює та повертає площу кола з радіусом r
-function calc(r){
-    return = 3.14 * r * r;
-}
+
 
 // 3 створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-function cs(r,h){
-    let pi = 3.14
-
-    return  ((2 * pi * r1 * h) + 2* pi * r1 * r1;
-    {
-
 
 // 4 створити функцію яка приймає масив та виводить кожен його елемент
         function foo(){
@@ -115,6 +107,5 @@ function cs(r,h){
                     }
                 }
             }
-        }
     }
     exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
